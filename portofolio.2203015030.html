@@ -13,13 +13,25 @@
       />
       <title>UAS Abrar Dhiya Rabbani</title>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <style>
+        .carousel-inner {
+            height: 350px; /* Adjust this value to change the height of the carousel items */
+        }
+        .carousel-inner img {
+          height: 100%;
+          object-fit: contain; /* Change this from 'cover' to 'contain' */
+        }
+        </style>
   </head>
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
 
     <!-- Example Code -->
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">ADR</a>
+        <a class="navbar-brand" href="#">
+          <img src="image_2203015030/logo1.jpeg" alt="Logo" style="height:20px;"> <!-- Adjust the path and style as needed -->
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -52,66 +64,306 @@
     <!-- End Example Code -->
     
     <!-- card -->
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card">
-          <img src="image_2203015030/sapiens (1).svg" class="card-img-top" alt="aa" style="height: 250px;" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <div class="container carousel mx-auto">
+      <div class="row">
+        <div class="col-sm">
+          <div id="carouselExample1" class="carousel slide">
+            <div class="carousel-inner" style="height: 400px">
+              <!-- Set a fixed height -->
+              <div class="card-body">
+                <h5 class="card-title">BWM</h5>
+                <p class="card-text">Contoh 1</p>
+              </div>
+              <div class="carousel-item active">
+                <img
+                  src="image_2203015030/BMW M4 💜.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                  style="object-fit: cover"
+                />
+                <!-- Use object-fit to maintain aspect ratio -->
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="image_2203015030/ᴄᴀʀs.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                  style="object-fit: cover"
+                />
+              </div>
+              
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample1"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample1"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="carouselExample2" class="carousel slide">
+            <p style="text-align: center; align-items: center; font-weight: bold;">Project 2<p>
+            <div class="carousel-inner">
+              <div class="card-body">
+                <h5 class="card-title">BWM</h5>
+                <p class="card-text">Contoh 2</p>
+              </div>
+              <div class="carousel-item active">
+                <img
+                  src="image_2203015030/Ferrari 458 Spider.jpeg"
+                  class="d-block w-100 h-300"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="image_2203015030/Ferrari 458 Spider (1).jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample2"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample2"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="carouselExample3" class="carousel slide">
+            <div class="card-body">
+              <h5 class="card-title">porto3 </h5>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="image_2203015030/a4797146-5774-4a76-b3b8-90bac52bd087.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="image_2203015030/ᴄᴀʀs.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample3"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample3"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>        
+      
+      <!-- kolom 2 -->
+    <div class="container carousel mt-2">
+      <div class="row">
+        <div class="col-sm">
+          <div id="carouselExample4" class="carousel slide">
+            <div class="card-body">
+              <h5 class="card-title">porto 4 </h5>
+            </div>
+            <div class="carousel-inner" style="height: 300px">
+              <div class="carousel-item active">
+                <img
+                  src="image_2203015030/Serigala besar.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="image_2203015030/Sickest Horse.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample4"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample4"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="carouselExample5" class="carousel slide">
+            <div class="card-body">
+              <h5 class="card-title">porto 5</h5>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="image_2203015030/🤍🤍🤍.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="image_2203015030/BMW M4 💜.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample5"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample5"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div id="carouselExample6" class="carousel slide">
+            <div class="card-body">
+              <h5 class="card-title">porto 6 </h5>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="image_2203015030/ke.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="image_2203015030/ke3.jpeg"
+                  class="d-block w-100 h-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample6"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample6"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card">
-          <img src="image_2203015030/sapiens (1).svg" class="card-img-top" alt="aa" style="height: 250px;" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="image_2203015030/sapiens (1).svg" class="card-img-top" alt="aa" style="height: 250px;" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="image_2203015030/sapiens (1).svg" class="card-img-top" alt="aa" style="height: 250px;" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="image_2203015030/sapiens (1).svg" class="card-img-top" alt="aa" style="height: 250px;" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-          </div>
-        </div>
-      </div> 
-      <div class="col">
-        <div class="card">
-          <img src="image_2203015030/sapiens (1).svg" class="card-img-top" alt="aa" style="height: 250px;" width="100%">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-          </div>
-        </div>
-      </div> 
     </div>
-    
-    
-    
-
+    <!-- end of card -->
     <!-- foooter -->
     <footer class="bg-body-tertiary text-center">
       <!-- Grid container -->
