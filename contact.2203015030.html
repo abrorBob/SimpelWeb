@@ -13,13 +13,52 @@
       />
       <title>UAS Abrar Dhiya Rabbani</title>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <style>
+        body {
+          background-color: #FFF; /* Beige */
+        }
+        .container form {
+          display: flex; /* Make the form a flex container */
+          flex-direction: column; /* Stack the children vertically */
+          justify-content: space-between; /* Distribute space evenly between the children */
+          max-width: 600px; /* Adjust this value to change the width of the form */
+          height: 600px;
+          margin: 0 auto; /* Center the container */
+          padding: 20px;
+          border-radius: 5px; /* Rounded corners */
+          background-color: #FFFDD0; /* Beige */
+        }
+        
+        h2 {
+          color: #333;
+        }
+        
+        .form-group label {
+          color: #555;
+        }
+        
+        .form-control {
+          background-color: #F5F5DC; /* Cream */
+          border: 1px solid #EEE8AA; /* Darker cream */
+        }
+        
+        .btn-primary {
+          background-color: brown;
+          border-color: #007bff;
+          color: #fff;
+          display: block; /* Make the button a block element */
+          margin: 0 auto; /* Center the button */
+        }
+      </style>
   </head>
   <body class="p-3 m-0 border-0 bd-example m-0 border-0">
-
+   
     <!-- Example Code -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">ADR</a>
+        <a class="navbar-brand" href="#">
+          <img src="image_2203015030/logo1.jpeg" alt="Logo" style="height:50px;"> <!-- Adjust the path and style as needed -->
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,45 +90,40 @@
     </nav>
     <!-- End Example Code -->
     
-     <!-- Example Code -->
-     <label for="inputAddress" class="form-label">your name</label>
-     <div class="row">
-     <div class="col">
-       <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-     </div>
-     <div class="col">
-       <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-     </div>
-     </div> 
-     <form class="row g-3">
-       <div class="col-md-6">
-         <label for="inputEmail4" class="form-label">Email</label>
-         <input type="email" class="form-control" id="inputEmail4">
-       </div>
- 
-       <div class="col-12">
-         <label for="inputAddress" class="form-label">Phone</label>
-         <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-       </div>
- 
-       <div class="form-floating">
-       <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-       <label for="floatingTextarea2">Comments</label>
-     </div>
-       
-       <div class="col-12">
-         <div class="form-check">
-           <input class="form-check-input" type="checkbox" id="gridCheck">
-           <label class="form-check-label" for="gridCheck">
-             Check me out
-           </label>
-         </div>
-       </div>
-       <div class="col-12">
-         <button type="submit" class="btn btn-primary">Sign in</button>
-       </div>
-     </form>
-     <!-- form -->
+    <!-- Example Code -->
+    <div class="container">
+      <form>
+        <h2>Contact Us</h2>
+        <p>We'd love to get in touch and learn more about you. So, send us a message and we'll reply as fast as we can.</p>
+        
+        <div class="form-group">
+          <label for="name">Your name:</label>
+          <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+          </div>
+        </div>  </div>
+        
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" class="form-control" id="email" placeholder="We're going to reply to your message by e-mail">
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Only if you want us to call you.">
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Your message:</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">SEND</button>
+      </form>
     </div>
 
     <!-- foooter -->
